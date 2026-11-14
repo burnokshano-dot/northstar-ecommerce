@@ -1,4 +1,4 @@
-# Northstar E-Commerce — Six-Person GitHub Collaboration Guide
+npm # Northstar E-Commerce — Six-Person GitHub Collaboration Guide
 
 ## One repository, six branches
 
