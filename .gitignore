@@ -1,0 +1,21 @@
+# Credentials and machine-local config
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+# Dependencies and build artifacts
+**/node_modules/
+**/dist/
+**/coverage/
+*.log
+.DS_Store
+Thumbs.db
+# Editors
+.vscode/
+.idea/
+# Database exports may contain personal data
+*.sql.gz
+*.sql.zip
+*backup*.sql
