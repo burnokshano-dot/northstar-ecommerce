@@ -63,4 +63,6 @@ app.use('/api/customers', customerRoutes);
 app.use('/api/orders', orderRoutes);
 
 app.use((req, res) => res.status(404).json({ message: 'Route not found.' }));
-app.listen(port, () => console.log(`API ready at http://localhost:${port}`));
+app.listen(port, '0.0.0.0', () => {
+  console.log(`Northstar API running on port ${port}`);
+});
